@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+  background-color: #9c835e; 
+}
+.section-top__image{
+  background-image: url("../photo/common/background.jpg");
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 180px;
+}
+.section-top h1{
+  color: #FFF;
+  font-size: 3.2rem;
+}
+.section-concept__image{
+  background-image: url("../photo/about/loghouse.jpg");
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-concept__image-filter{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  padding: 70px 0 0 70px;
+}
+.section-concept h2{
+  color: #FFF;
+  text-align: left;
+  font-size: 2.0rem;
+  line-height: 3.6rem;
+}
+.section-concept__text{
+  padding: 30px;
+  margin-bottom: 10px;
+}
+.section-concept__text p{
+  color: #FFF;
+  text-align: left;
+  font-size: 1.4rem;
+}
+@media(min-width: 960px){
+  .section-top__image{
+    height: 550px;
+    padding-top: 250px;
+  }
+  .section-top h1{
+    font-size: 4.0rem;
+  }
+  .section-concept__image{
+    height: 300px;
+  }
+  .section-concept__image-filter{
+    padding: 0;
+  }
+  .section-concept h2{
+    font-size: 3.2rem;
+    padding: 100px 0 0 150px;
+    max-width: 1160px;
+    margin: 0 auto;
+    line-height: 4.8rem;
+  }
+  .section-concept__text{
+    padding-top: 60px;
+    margin-bottom: 60px;
+  }
+  .section-concept__text p{
+    padding: 0 40px;
+    max-width: 1160px;
+    margin: 0 auto;
+    font-size: 2.0rem;
+    line-height: 3.5rem;
+  }
+}

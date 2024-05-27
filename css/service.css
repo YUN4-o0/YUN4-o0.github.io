@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+  background-color: #9c835e; 
+}
+.section-top__image{
+  background-image: url("../photo/common/background.jpg");
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 180px;
+}
+.section-top h1{
+  color: #FFF;
+  font-size: 3.2rem;
+}
+@media(min-width: 960px){
+  .section-top__image{
+    height: 550px;
+    padding-top: 250px;
+  }
+  .section-top h1{
+    font-size: 4.0rem;
+  }
+}
+.section-service{
+  padding: 40px 30px 60px;
+  color: #FFF;
+}
+.section-service__zukin{
+  margin-bottom: 40px;
+}
+.section-service__zukin h2,.section-service__your-cocktail h2{
+  font-size: 2.0rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.section-service__zukin-wrapper img{
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.section-service__zukin-image h3{
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+}
+.section-service__zukin p,.section-service__your-cocktail p{
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+}
+.section-service__zukin span,.section-service__your-cocktail span{
+  display: block;
+  text-align: left;
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+.section-service__your-cocktail img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 10px;
+}
+.section-service__your-cocktail span{
+  display: block;
+  text-align: left;
+  font-size: 1.2rem;
+  margin: 0 5px 20px 0;
+}
+@media(min-width: 960px){
+  .section-service{
+    padding: 60px;
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  .section-service__zukin{
+    margin-bottom: 60px;
+  }
+  .section-service__zukin h2,.section-service__your-cocktail h2{
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+  }
+  .section-service__zukin-image{
+    display: flex;
+  }
+  .section-service__zukin-wrapper{
+    width: 400px;
+  }
+  .section-service__zukin-wrapper img{
+    width: 300px;
+    height: 200px;
+  }
+  .section-service__zukin-wrapper h3{
+    font-size: 1.6rem;
+  }
+  .section-service__zukin p,.section-service__your-cocktail p{
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+  }
+  .section-service__zukin span,.section-service__your-cocktail span{
+    font-size: 1.8rem;
+  }
+  .section-service__your-cocktail img{
+    width: 60%;
+    height: 300px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+  }
+  .section-service__your-cocktail span{
+    margin-bottom: 40px;
+  }
+}

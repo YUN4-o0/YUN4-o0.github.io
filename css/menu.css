@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+  background-color: #9c835e; 
+}
+.section-top__image{
+  background-image: url("../photo/common/background.jpg");
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 180px;
+}
+.section-top h1{
+  color: #FFF;
+  font-size: 3.2rem;
+}
+@media(min-width: 960px){
+  .section-top__image{
+    height: 550px;
+    padding-top: 250px;
+  }
+  .section-top h1{
+    font-size: 4.0rem;
+  }
+}
+.section-menu{
+  color: #FFF;
+  margin-bottom: 60px;
+}
+.section-menu__drink{
+  margin-bottom: 40px;
+}
+.section-menu__drink-image{
+  background-image: url("../photo/menu/menu.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+.section-menu__drink-imagefilter{
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  padding: 40px 30px;
+}
+.section-menu__drink h2,.section-menu__food h2{
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+.section-menu__drink table th,.section-menu__food table th{
+  text-align: left;
+  width: 50vw;
+}
+.section-menu__drink table td,.section-menu__food table td{
+  text-align: right;
+  width: 50vw;
+}
+.section-menu__food{
+  padding: 0 30px;
+}
+@media(min-width: 960px){
+  .section-menu__drink-image,.section-menu__drink-imagefilter{
+    height: 500px;
+  }
+  .section-menu__drink h2,.section-menu__food h2{
+    padding-top: 40px;
+    font-size: 3.8rem;
+    margin-bottom: 60px;
+  }
+  .section-menu__drink table,.section-menu__food table{
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+  }
+  .section-menu__drink table th,.section-menu__food table th,
+  .section-menu__drink table td,.section-menu__food table td{
+    font-size: 3.0rem;
+    line-height: 4.5rem;
+  }
+}
